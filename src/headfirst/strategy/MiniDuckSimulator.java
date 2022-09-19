@@ -17,5 +17,11 @@ public class MiniDuckSimulator {
 		model.performFly();	
 		model.setFlyBehavior(new FlyRocketPowered());
 		model.performFly();
+
+		BadDuck bad = new BadDuck();
+		bad.performQuack();
+		bad.performQuack();
+		bad.performQuack();
+
 	}
 }

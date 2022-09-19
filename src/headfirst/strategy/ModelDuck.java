@@ -3,7 +3,7 @@ package headfirst.strategy;
 public class ModelDuck extends Duck {
 	public ModelDuck() {
 		flyBehavior = new FlyNoWay();
-		quackBehavior = new Quack();
+		quackBehavior = new DoubleQuack();
 	}
 
 	public void display() {
