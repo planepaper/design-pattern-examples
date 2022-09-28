@@ -44,5 +44,6 @@ public class ClothingStore implements Observer
 	public void display() {
 		currentState();
 		kindOfSellingCloths();
+		System.out.println();
 	}
 }

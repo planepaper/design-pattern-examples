@@ -32,6 +32,7 @@ public class UmbrellaStore implements Observer
 	public void display() {
 		currentState();
 		isSelling();
+		System.out.println();
 	}
 
 	public void currentState() {
