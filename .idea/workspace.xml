@@ -1,52 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cff449e4-19a6-40b5-8f52-7aa3e72a51c6" name="Default Changelist" comment="" />
+    <list default="true" id="e4744bdd-30ac-4dc7-80dc-914c076754d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2Eyh4x2UO0ED26dEZ61G6wIOLDv" />
+  <component name="ProjectId" id="2HraqjgTqzC5lryQ7ZFVYseSK1b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DP-visitor" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cff449e4-19a6-40b5-8f52-7aa3e72a51c6" name="Default Changelist" comment="" />
-      <created>1663573544104</created>
+      <changelist id="e4744bdd-30ac-4dc7-80dc-914c076754d7" name="Default Changelist" comment="" />
+      <created>1669045850578</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663573544104</updated>
+      <updated>1669045850578</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="109" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1663574301425">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="905" y="152" key="FileChooserDialogImpl" timestamp="1669046003277">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="184" y="109" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1663574301425" />
-    <state x="342" y="153" key="NewModule_or_Project.wizard" timestamp="1663574459417">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="905" y="152" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1669046003277" />
+    <state x="785" y="149" width="681" height="592" key="NewModule_or_Project.wizard" timestamp="1669047521298">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="342" y="153" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1663574459417" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1663574213751">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="785" y="149" width="681" height="592" key="NewModule_or_Project.wizard/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1669047521298" />
+    <state x="536" y="55" key="new project wizard" timestamp="1669045990430">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1663574213751" />
+    <state x="536" y="55" key="new project wizard/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1669045990430" />
   </component>
 </project>
