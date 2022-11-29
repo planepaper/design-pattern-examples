@@ -3,9 +3,10 @@ package headfirst.decorator.io.skeleton;
 import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.function.IntFunction;
 
 public class ShiftInputStream extends FilterInputStream {
-
+  final int ALPHABET_SIZE = 26;
   private int _offset = 0;
 
   public ShiftInputStream(InputStream inputStream) {
@@ -14,25 +15,39 @@ public class ShiftInputStream extends FilterInputStream {
   public ShiftInputStream(InputStream inputStream, int offset)
   {
     super(inputStream);
-    _offset = offset;
+    _offset = offset % ALPHABET_SIZE ;
   }
 
   @Override
   public int read() throws IOException {
     int c = super.read();
-    if((c >= 'a' && c<= 'z') || (c>='A' && c<='Z'))
-    {
-      c += _offset;
-    }
+    c = shiftalphabet(c);
     return ((c == -1) ? c : (char)c);
   }
 
-  @Override
-  public int read(byte[] b, int offset, int len) throws IOException {
-    int result = super.read(b, offset, len);
-    for (int i = offset; i < offset+result ; i++ )
-      b[i] = (byte)Character.toLowerCase((char)b[i]);
+  private int shiftalphabet(int alphabet){
 
-    return result;
+    IntFunction isAlphabet = (a) -> (a >= 'a' && a<= 'z') || (a>='A' && a<='Z') ?  true :  false;
+
+    if((boolean)isAlphabet.apply(alphabet))
+    {
+      alphabet += _offset;
+      if(!(boolean)isAlphabet.apply(alphabet))
+      {
+        if(_offset < 0)
+        {
+          alphabet += ALPHABET_SIZE;
+        }
+        else if(_offset > 0)
+        {
+          alphabet -= ALPHABET_SIZE;
+        }
+
+      }
+    }
+
+    return alphabet;
   }
+
+
 }
