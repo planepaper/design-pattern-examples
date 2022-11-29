@@ -21,7 +21,7 @@ public class InputStreamSimulator {
 			// InputStream inputStream = new ShiftInputStream(new LowerCaseInputStream(new BufferedInputStream(in)), 1);
 			// 2 even more !: 
 			// InputStream inputStream = new ShiftInputStream(new ShiftInputStream(new LowerCaseInputStream(new BufferedInputStream(in)), 4),-4);
-			InputStream inputStream = new LowerCaseInputStream(in) ;
+			InputStream inputStream = new ShiftInputStream(in) ;
 			while ( (c = inputStream.read()) >= 0)				
 				System.out.print((char)c);
 		
